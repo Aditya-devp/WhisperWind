@@ -111,7 +111,7 @@ app.get("/submit", function(req, res){
 });
 app.get("/logout", function(req, res){
   req.logout();
-  res.redirect("/login");
+  res.render("home");
 });
 
 app.post("/submit", function(req, res){

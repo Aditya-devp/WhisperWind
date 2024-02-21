@@ -1,11 +1,21 @@
 
-body {
-  background-color: #E8ECEF;
+body{
+  background-color: #6bb4ec;
+  background-image: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?w=1800&t=st=1708521670~exp=1708522270~hmac=d36659dc465db3ae0535a6960a68fbdfcbf0f3e35129483741d96d68ebfa15bc');
 }
 
-.centered {
+.jumbotron_centered {
     padding-top: 200px;
     text-align: center;
+    color: #fff;
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-radius: 10px; 
+  padding: 20px;
+  margin-top: 50px; 
+  
 }
 
 .secret-text {
@@ -14,3 +24,41 @@ body {
   color: #fff;
   background-color: #000;
 }
+.card {
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-social {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-out:hover {
+  color: #fff;
+  background-color:#bd2130;
+  border-color: #bd2130;
+}
+.btn-sub:hover {
+  color: #fff;
+  background-color:green;
+  border-color:green;
+}
+
+.btn-social i {
+  margin-right: 5px;
+}
+.greet{
+  color: #fff;
+}
+.sec_key{
+  color: chartreuse;
+}
+
+.subs,.sec_body,.card-b{
+  background-color:slategrey;
+  border-radius: 10px;
+}
+
