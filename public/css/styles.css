@@ -1,7 +1,8 @@
 
 body{
   background-color: #6bb4ec;
-  background-image: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?w=1800&t=st=1708521670~exp=1708522270~hmac=d36659dc465db3ae0535a6960a68fbdfcbf0f3e35129483741d96d68ebfa15bc');
+  background-image: url('img.jpg');
+  background-size: cover;
 }
 
 .jumbotron_centered {
@@ -25,7 +26,7 @@ body{
   background-color: #000;
 }
 .card {
-  /* border: 1px solid #ccc; */
+ 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
